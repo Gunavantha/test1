@@ -1,0 +1,5 @@
+<h2>Shoul mankind ..........?</h2>
+<h3>Agree:{{agreed}}, Disagree:{{disagreed}}</h3>
+
+
+<app-voter *ngFor = "let voter of voters" [name] = "voters" (onVoted) = "onVoted($event)" > </app-voter>
